@@ -1,6 +1,10 @@
 // Import styles
 
-@import "styles"; // Reset
+@import "styles";
+@import "media";
+
+// Reset
+
 * {
   padding: 0;
   margin: 0;
