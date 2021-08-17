@@ -8,7 +8,63 @@
     <title>ApollyWeb</title>
   </head>
   <body>
-    <div class="container"></div>
+    <div class="page">
+      <section class="header page__header">
+        <div class="top__bar">
+          <svg
+            class="top__bar__logo"
+            width="180"
+            height="45"
+            viewBox="0 0 180 45"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <rect width="180" height="45" fill="url(#pattern0)" />
+            <defs>
+              <pattern
+                id="pattern0"
+                patternContentUnits="objectBoundingBox"
+                width="1"
+                height="1"
+              >
+                <use
+                  xlink:href="#image0"
+                  transform="translate(-0.00409836) scale(0.00409836 0.0163934)"
+                />
+              </pattern>
+              <image
+                id="image0"
+                width="246"
+                height="61"
+                xlink:href="data:image/png;base64,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"
+              />
+            </defs>
+          </svg>
+          <nav class="top__bar__nav">
+            <ul class="nav__menu">
+              <li class="nav__item">
+                <a class="nav__link" href="#">Home</a>
+                <a class="nav__link" href="#">Features</a>
+                <a class="nav__link" href="#">Screenshoot</a>
+                <a class="nav__link" href="#">Price</a>
+                <a class="nav__link" href="#">Blog</a>
+                <a class="nav__link" href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="top__bar__auth">
+            <button class="auth__login">Login</button>
+            <button class="auth__sign-in">Sign up</button>
+          </div>
+        </div>
+        <div class="top__bar__menu-toggle">
+          <div class="menu-toggle__item"></div>
+          <div class="menu-toggle__item"></div>
+          <div class="menu-toggle__item"></div>
+        </div>
+      </section>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>
