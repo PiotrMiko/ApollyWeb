@@ -3,3 +3,45 @@
   margin: 0;
   box-sizing: border-box;
 }
+.page {
+  .header {
+    background-color: $royal-blue;
+    position: relative;
+    height: 100vh;
+    // background-image: url(/img/deko-bg.svg);
+    // background-repeat: no-repeat;
+    // background-attachment: fixed;
+    // background-position: bottom center;
+    .top__bar {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.5rem 1rem;
+      .top__bar__logo {
+        width: 100px;
+      }
+      .top__bar__menu-toggle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 50px;
+
+        .menu-toggle__item {
+          background-color: $white;
+          width: 26px;
+          height: 2px;
+          margin-top: 4px;
+        }
+      }
+      .top__bar__nav {
+        display: none;
+      }
+      .top__bar__auth {
+        display: none;
+      }
+    }
+  } //.header
+}
