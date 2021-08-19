@@ -8,10 +8,7 @@
     background-color: $royal-blue;
     position: relative;
     height: 100vh;
-    // background-image: url(/img/deko-bg.svg);
-    // background-repeat: no-repeat;
-    // background-attachment: fixed;
-    // background-position: bottom center;
+
     .top__bar {
       display: flex;
       flex-direction: row;
@@ -42,6 +39,6 @@
       .top__bar__auth {
         display: none;
       }
-    }
+    } //.top__bar
   } //.header
-}
+} // .page
