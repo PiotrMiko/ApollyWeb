@@ -10,6 +10,7 @@
     height: 100vh;
 
     .top__bar {
+      position: relative;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -34,11 +35,35 @@
         }
       }
       .top__bar__nav {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
       }
       .top__bar__auth {
         display: none;
       }
     } //.top__bar
+    .hero__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 18px;
+
+      .hero__heading {
+        color: $white;
+        font-size: 2rem;
+        margin-top: 6vh;
+        letter-spacing: 1px;
+        line-height: 51px;
+      }
+      .hero__paragraph {
+        font-size: 1rem;
+        color: $white;
+        font-weight: 400;
+        margin-top: 4vh;
+      }
+    } //.hero__container
   } //.header
 } // .page
