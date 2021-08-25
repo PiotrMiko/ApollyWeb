@@ -1,11 +1,11 @@
 <svg width="26" height="29" viewBox="0 0 26 29" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_d)">
-<path d="M4 4H22V6H4V4ZM4 19H22V21H4V19ZM4 14H22V16H4V14ZM4 9H22V11H4V9Z" fill="#09121F"/>
+<path d="M4 4H22V6H4V4ZM4 19H22V21H4V19ZM4 14H22V16H4V14ZM4 9H22V11H4V9Z" fill="#FFFF"/>
 </g>
 <defs>
 <filter id="filter0_d" x="-3" y="0" width="32" height="32" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="4"/>
 <feGaussianBlur stdDeviation="2"/>
 <feComposite in2="hardAlpha" operator="out"/>
