@@ -7,26 +7,43 @@
   font-family: "Manrope", sans-serif;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 .menu-active {
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   top: 10vh;
-  right: 0;
+  left: 100%;
   width: 100%;
   height: 90vh;
   background-color: #ffffff;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-animation: slide-left 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+          animation: slide-left 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
 }
 
 .menu-active .nav__menu {
