@@ -1,22 +1,17 @@
-const menu = document.querySelector("#menu-toggle");
-const hambMenu = document.querySelector(".hamb-menu");
-const cross = document.querySelector(".close-cross");
-const menuopen = document.querySelector(".top__bar__nav");
-const navMenu = document.querySelector(".nav__menu");
-const active = document.querySelector(".active-menu");
+const nav = document.querySelector(".top__bar__nav");
+const hambIcon = document.querySelector(".hamb-menu");
+const closeIcon = document.querySelector(".close-cross");
 
 const toggle = () => {
-  if (menu.classList == "top__bar__nav") {
-    console.log("click");
-    hambMenu.style.display = "none";
-    cross.style.display = "flex";
-    menu.classList.toggle("menu-active");
-    menu.classList.toggle("top__bar__nav");
-  } else {
-    cross.style.display = "none";
-    hambMenu.style.display = "flex";
-    menu.classList.toggle("menu-active");
-    menu.classList.toggle("top__bar__nav");
+  if ((hambIcon.style.display = "flex")) {
+    hambIcon.style.display = "none";
+    closeIcon.style.display = "flex";
+    nav.style.left = "0px";
+  } else if ((closeIcon.style.left = "flex")) {
+    closeIcon.style.display = "none";
+    hambIcon.style.display = "flex";
+    nav.style.left = "100%";
+    console.log("ok2");
   }
 };
 
