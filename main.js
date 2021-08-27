@@ -2,6 +2,9 @@ const nav = document.getElementById("menu-toggle");
 const hambIcon = document.querySelector(".hamb-menu");
 const closeIcon = document.querySelector(".close-cross");
 
+// const resizeCapture = () => {
+
+// };
 const toggle = () => {
   if (nav.classList == "top__bar__nav") {
     nav.classList.toggle("top__bar__nav");
@@ -19,4 +22,5 @@ const toggle = () => {
 const toggleBtn = document
   .querySelector(".top__bar__menu-toggle")
   .addEventListener("click", toggle);
-//  <img class="close-cross" src="./img/Icons/close-line.svg" alt="" />
+
+// window.addEventListener("resize", resizeCapture);
