@@ -10,12 +10,10 @@ const toggle = () => {
     nav.classList.toggle("top__bar__nav");
     nav.classList.toggle("top__bar__nav_active");
     hambIcon.src = "./img/Icons/close-line.svg";
-    console.log("flex");
   } else if (nav.classList == "top__bar__nav_active") {
     nav.classList.toggle("top__bar__nav_active");
     nav.classList.toggle("top__bar__nav");
     hambIcon.src = "./img/Icons/align-justify.svg";
-    console.log("none");
   }
 };
 
