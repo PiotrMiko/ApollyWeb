@@ -48,7 +48,7 @@
 
 .top__bar__nav_active .nav__item .sign-in {
   background-color: #fd6e5e;
-  border-radius: 25px;
+  border-radius: 50px;
   padding: 1vh 4vh;
 }
 
@@ -65,7 +65,7 @@
 
 .top__bar__nav_active .nav__item .sign-in {
   background-color: #fd6e5e;
-  border-radius: 25px;
+  border-radius: 50px;
   padding: 1vh 4vh;
 }
 
@@ -176,7 +176,7 @@
 
 .page .header .top__bar .top__bar__nav .nav__item .sign-in {
   background-color: #fd6e5e;
-  border-radius: 25px;
+  border-radius: 50px;
   padding: 1vh 4vh;
 }
 
@@ -210,7 +210,7 @@
 
 .page .header .hero__container .hero__heading {
   color: #ffffff;
-  font-size: 2rem;
+  font-size: 2.2rem;
   margin-top: 6vh;
   letter-spacing: 1px;
   line-height: 51px;
@@ -221,6 +221,77 @@
   color: #ffffff;
   font-weight: 400;
   margin-top: 4vh;
+}
+
+.page .header .hero__container .hero__email-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 6vh;
+  margin-top: 4vh;
+  border-radius: 25px;
+  background-color: #ffffff;
+}
+
+.page .header .hero__container .hero__email-box input {
+  border: 0;
+  height: 4vh;
+  margin-left: 2vh;
+  font-size: 1.2rem;
+}
+
+.page .header .hero__container .hero__email-box input:focus {
+  outline: none;
+}
+
+.page .header .hero__container .hero__email-box input::-webkit-input-placeholder {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.page .header .hero__container .hero__email-box input:-ms-input-placeholder {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.page .header .hero__container .hero__email-box input::-ms-input-placeholder {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.page .header .hero__container .hero__email-box input::placeholder {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.page .header .hero__container .hero__email-box svg {
+  margin-right: 2vh;
+}
+
+@media (orientation: landscape) {
+  .header {
+    padding: 5vh 2vh 0 2vh;
+  }
+  .header .top__bar__nav_active {
+    height: 85vh;
+    width: 40%;
+    left: 60%;
+    text-align: right;
+    padding-right: 10vh;
+  }
+  .header .top__bar__nav_active .nav__link {
+    font-size: 1.5rem;
+  }
 }
 
 .wrapper {
