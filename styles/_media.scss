@@ -64,12 +64,16 @@
         margin-top: 6vh;
         letter-spacing: 1px;
         line-height: 51px;
+        opacity: 0;
+        transition: 1s;
       }
       .hero__paragraph {
         font-size: 1rem;
         color: $white;
         font-weight: 400;
         margin-top: 4vh;
+        opacity: 0;
+        transition: 1s;
       }
       .hero__email-box {
         display: flex;
@@ -80,6 +84,8 @@
         margin-top: 4vh;
         border-radius: 25px;
         background-color: $white;
+        opacity: 0;
+        transition: 1s;
 
         input {
           border: 0;

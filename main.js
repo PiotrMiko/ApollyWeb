@@ -21,4 +21,13 @@ const toggleBtn = document
   .querySelector(".top__bar__menu-toggle")
   .addEventListener("click", toggle);
 
-// window.addEventListener("resize", resizeCapture);
+let modes = ([] = document.querySelectorAll(".item-ani"));
+let interval = 1000; //one second
+modes.forEach((mode, index) => {
+  setTimeout(() => {
+    setTimeout(() => {
+      modes[index].style.opacity = "1";
+      console.log(mode);
+    }, index * interval);
+  }, 1000 / 2);
+});
