@@ -7,6 +7,36 @@
   font-family: "Manrope", sans-serif;
 }
 
+@media (orientation: landscape) {
+  .header {
+    padding: 5vh 2vh 0 2vh;
+  }
+  .header .top__bar__nav_active {
+    height: 85vh;
+    width: 40%;
+    left: 60%;
+    text-align: right;
+    padding-right: 10vh;
+  }
+  .header .top__bar__nav_active .nav__link {
+    font-size: 1.5rem;
+  }
+  .header .hero {
+    text-align: left;
+    margin-right: 10vh;
+  }
+  .header .hero .hero__email-box {
+    max-width: 80%;
+    padding: 6vh;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .header {
+    padding: 4vh 10% 0 10%;
+  }
+}
+
 .top__bar__nav_active {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -215,8 +245,8 @@
   letter-spacing: 1px;
   line-height: 51px;
   opacity: 0;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
 .page .header .hero__container .hero__paragraph {
@@ -225,8 +255,8 @@
   font-weight: 400;
   margin-top: 4vh;
   opacity: 0;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
 .page .header .hero__container .hero__email-box {
@@ -248,8 +278,8 @@
   border-radius: 25px;
   background-color: #ffffff;
   opacity: 0;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 3s;
+  transition: 3s;
 }
 
 .page .header .hero__container .hero__email-box input {
@@ -300,6 +330,20 @@
   }
   .header .top__bar__nav_active .nav__link {
     font-size: 1.5rem;
+  }
+  .header .hero {
+    text-align: left;
+    margin-right: 10vh;
+  }
+  .header .hero .hero__email-box {
+    max-width: 80%;
+    padding: 6vh;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .header {
+    padding: 4vh 10% 0 10%;
   }
 }
 
