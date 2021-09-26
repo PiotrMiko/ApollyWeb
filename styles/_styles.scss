@@ -61,32 +61,3 @@ $blue-gradient: linear-gradient(#1d98ff, #2961ff);
     }
   }
 }
-@media (orientation: landscape) {
-  .header {
-    padding: 5vh 2vh 0 2vh;
-
-    .top__bar__nav_active {
-      height: 85vh;
-      width: 40%;
-      left: 60%;
-      text-align: right;
-      padding-right: 10vh;
-      .nav__link {
-        font-size: 1.5rem;
-      }
-    }
-    .hero {
-      text-align: left;
-      margin-right: 10vh;
-      .hero__email-box {
-        max-width: 80%;
-        padding: 6vh;
-      }
-    }
-  }
-}
-@media screen and (min-width: 1025px) {
-  .header {
-    padding: 4vh 10% 0 10%;
-  }
-}
