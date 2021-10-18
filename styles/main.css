@@ -270,38 +270,75 @@
   transition: 3s;
 }
 
-.page .hero__container .hero__email-box input {
+.page .hero__container .hero__email-box .hero__email-box_btn {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .page .hero__container .hero__email-box .hero__email-box_btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 160px;
+    height: 100%;
+    background-color: #5857e9;
+    border-radius: 25px;
+    border: 0;
+    font-size: 1.2rem;
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .page .hero__container .hero__email-box {
+    max-width: 100%;
+    padding: 0.5vh;
+    border-radius: 35px;
+    margin-top: 8vh;
+  }
+  .page .hero__container .hero__email-box svg {
+    display: none;
+  }
+}
+
+.page .hero__container input {
   border: 0;
   height: 4vh;
   margin-left: 2vh;
   font-size: 1.2rem;
 }
 
-.page .hero__container .hero__email-box input:focus {
+.page .hero__container input:focus {
   outline: none;
 }
 
-.page .hero__container .hero__email-box input::-webkit-input-placeholder {
+.page .hero__container input::-webkit-input-placeholder {
   font-size: 0.8rem;
   letter-spacing: 1px;
 }
 
-.page .hero__container .hero__email-box input:-ms-input-placeholder {
+.page .hero__container input:-ms-input-placeholder {
   font-size: 0.8rem;
   letter-spacing: 1px;
 }
 
-.page .hero__container .hero__email-box input::-ms-input-placeholder {
+.page .hero__container input::-ms-input-placeholder {
   font-size: 0.8rem;
   letter-spacing: 1px;
 }
 
-.page .hero__container .hero__email-box input::placeholder {
+.page .hero__container input::placeholder {
   font-size: 0.8rem;
   letter-spacing: 1px;
 }
 
-.page .hero__container .hero__email-box svg {
+.page .hero__container svg {
   margin-right: 2vh;
 }
 

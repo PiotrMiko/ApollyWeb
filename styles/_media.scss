@@ -97,26 +97,51 @@
       background-color: $white;
       opacity: 0;
       transition: 3s;
-
-      input {
-        border: 0;
-        height: 4vh;
-        margin-left: 2vh;
-        font-size: 1.2rem;
-        &:focus {
-          outline: none;
-        }
-        &::placeholder {
-          font-size: 0.8rem;
-          letter-spacing: 1px;
+      .hero__email-box_btn {
+        display: none;
+        @media screen and (min-width: 768px) {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 160px;
+          height: 100%;
+          background-color: $royal-blue;
+          border-radius: 25px;
+          border: 0;
+          font-size: 1.2rem;
+          color: $white;
         }
       }
-      svg {
-        margin-right: 2vh;
+      @media screen and (min-width: 768px) {
+        max-width: 100%;
+        padding: 0.5vh;
+        border-radius: 35px;
+        margin-top: 8vh;
+        svg {
+          display: none;
+        }
       }
     }
-  } //.hero__container
-} //.header
+
+    input {
+      border: 0;
+      height: 4vh;
+      margin-left: 2vh;
+      font-size: 1.2rem;
+      &:focus {
+        outline: none;
+      }
+      &::placeholder {
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+      }
+    }
+    svg {
+      margin-right: 2vh;
+    }
+  }
+} //.hero__container
+//.header
 // .page
 
 // <=============== MEDIA =============>
