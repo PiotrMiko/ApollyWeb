@@ -30,7 +30,7 @@
         align-items: center;
         width: 40px;
         height: 50px;
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: 1280px) {
           display: none;
         }
       }
@@ -64,8 +64,11 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0 18px;
-
+    padding: 0 2vh;
+    @media screen and (min-width: 768px) {
+      text-align: left;
+      padding-right: 6vh;
+    }
     .hero__heading {
       color: $white;
       font-size: 2.2rem;
@@ -75,7 +78,7 @@
       opacity: 0;
       transition: 2s;
       @media screen and (min-width: 768px) {
-        font-size: 3rem;
+        font-size: 2.8rem;
       }
     }
     .hero__paragraph {
@@ -85,6 +88,9 @@
       margin-top: 4vh;
       opacity: 0;
       transition: 2s;
+      @media screen and (min-width: 768px) {
+        padding-right: 3vh;
+      }
     }
     .hero__email-box {
       display: flex;
@@ -97,6 +103,16 @@
       background-color: $white;
       opacity: 0;
       transition: 3s;
+
+      @media screen and (min-width: 768px) {
+        max-width: 100%;
+        padding: 0.6vh;
+        border-radius: 35px;
+        margin-top: 8vh;
+        svg {
+          display: none;
+        }
+      }
       .hero__email-box_btn {
         display: none;
         @media screen and (min-width: 768px) {
@@ -110,15 +126,6 @@
           border: 0;
           font-size: 1.2rem;
           color: $white;
-        }
-      }
-      @media screen and (min-width: 768px) {
-        max-width: 100%;
-        padding: 0.5vh;
-        border-radius: 35px;
-        margin-top: 8vh;
-        svg {
-          display: none;
         }
       }
     }

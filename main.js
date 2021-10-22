@@ -17,7 +17,6 @@ const toggle = () => {
 const toggleBtn = document
   .querySelector(".top__bar__menu-toggle")
   .addEventListener("click", toggle);
-
 let interval = 1000 / 2;
 modes.forEach((i, index) => {
   setTimeout(() => {
@@ -26,4 +25,5 @@ modes.forEach((i, index) => {
     }, index * interval);
   }, 1000 / 2);
 });
+// window.addEventListener("resize", resizeEvent);
 //// napisz to teraz sam

@@ -36,6 +36,10 @@ $blue-gradient: linear-gradient(#1d98ff, #2961ff);
   height: 90vh;
   background-color: $royal-blue;
   transition: 0.3s;
+  @media screen and (min-width: 1440px) {
+    left: 0;
+    top: 0;
+  }
 }
 @mixin nav__menu {
   display: flex;
